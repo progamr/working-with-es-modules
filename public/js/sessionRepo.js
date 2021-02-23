@@ -16,6 +16,8 @@ function getSessions(){
 }
 
 export {
-    getSessions
+    getSessions,
+    url,
+    getSessions as default
 }
-export {sessionTemplate} from './template';
+export {sessionTemplate} from './template.js';
